@@ -1,0 +1,47 @@
+.footer {
+  position: relative;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 30px 6px 0 9px;
+  justify-content: space-between;
+}
+
+.amount {
+  font-size: calc(10px + 1vw);
+}
+
+.btn-group {
+  position: relative;
+  z-index: 1;
+}
+
+.filter-btn {
+  margin: 3px;
+  padding: 4px 8px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: calc(6px + 1vw);
+  box-shadow: 0px 1px 2px 1px silver;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  border-color: rgba(175, 47, 47, 0.2);
+}
+
+.footer:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2),
+                0 8px 0 -3px #f6f6f6,
+                0 9px 1px -3px rgba(0, 0, 0, 0.2),
+                0 16px 0 -6px #f6f6f6,
+                0 17px 2px -6px rgba(0, 0, 0, 0.2);
+}

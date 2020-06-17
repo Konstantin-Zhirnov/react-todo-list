@@ -1,0 +1,8 @@
+.title {
+  font-family: 'Permanent Marker', cursive;
+  font-size: calc(14px + 7vw);
+  text-align: center;
+  font-weight: 900;
+  color: rgba(175, 47, 47, 0.8);
+  margin-bottom: 20px;
+}
